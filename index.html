@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ===== META & PAGE SETUP ===== -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeCare Academy | Become a Certified Caregiver</title>
+  
+  <!-- ===== FONTS & EXTERNAL STYLES ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ============================================================ -->
+  <!-- ===== HERO SECTION (HEADER + NAVIGATION + HERO CONTENT) ===== -->
+  <!-- ============================================================ -->
+  <header class="hero-section">
+    
+    <!-- -------- NAVIGATION BAR -------- -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <!-- logo / brand -->
+        <a href="#" class="logo-container">
+          <img src="logo.png" alt="Academy Logo" class="logo-img">
+        </a>
+        
+        <!-- mobile menu toggle (hamburger) -->
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <!-- main navigation links -->
+        <ul class="nav-links" id="nav-list">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About Academy</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#enroll" class="nav-cta">Enroll</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- -------- HERO CONTENT + VISUAL -------- -->
+    <div class="hero-container" id="home">
+      <!-- left side: text & CTA -->
+      <div class="hero-content">
+        <span class="subtitle">Welcome to the Academy</span>
+        <h1>Become a Certified <span>Professional Caregiver</span></h1>
+        <p>Gain practical caregiving skills through expert-led training and prepare for rewarding opportunities in home healthcare.</p>
+        
+        <div class="hero-buttons">
+          <a href="#enroll" class="btn-primary">Enroll Now</a>
+          <a href="#courses" class="btn-secondary">Explore Courses</a>
+        </div>
+
+        <!-- trust badges / key highlights -->
+        <div class="hero-badges">
+          <span><i class="fa-solid fa-star"></i> Online & Physical Classes</span>
+          <span><i class="fa-solid fa-clock"></i> Professional Trainers</span>
+          <span><i class="fa-solid fa-star"></i> Industry-Recognized Certificate</span>
+        </div>
+      </div>
+
+      <!-- right side: decorative visuals + hero image -->
+      <div class="hero-visual">
+        <div class="medical-icon cross-1">+</div>
+        <div class="medical-icon cross-2">+</div>
+        <div class="node-dot dot-orange"></div>
+        <div class="node-dot dot-blue"></div>
+        <div class="node-dot dot-purple"></div>
+        <div class="shape-orange"></div>
+        <div class="shape-navy"></div>
+        <div class="image-wrapper">
+          <img src="hero.png" alt="Caregiver Student" class="hero-image">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================ -->
+  <!-- ===== TRUST BAR (quick credibility indicators) ===== -->
+  <!-- ============================================================ -->
+  <section class="trust-bar section-hidden">
+    <div class="container">
+      <div class="trust-grid">
+        <div class="trust-item"><i class="fa-solid fa-award"></i> Industry-Recognized Training</div>
+        <div class="trust-item"><i class="fa-solid fa-circle-check"></i> Practical Learning</div>
+        <div class="trust-item"><i class="fa-solid fa-file-invoice"></i> Certificate Upon Completion</div>
+        <div class="trust-item"><i class="fa-solid fa-shield-halved"></i> Trusted by Families Across Nigeria</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== ABOUT / "WHY CAREGIVING?" ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding bg-light section-hidden" id="about">
+    <div class="container">
+      <!-- section header -->
+      <div class="section-header">
+        <span class="subtitle-tag">Career Insight</span>
+        <h2>Why Choose Caregiving?</h2>
+        <p>Caregiving is one of today's most rewarding professions, allowing you to make a meaningful difference while building valuable healthcare skills that open doors to diverse career opportunities.</p>
+      </div>
+      <!-- 4 benefit cards -->
+      <div class="grid-4">
+        <div class="icon-card section-hidden">
+          <div class="icon-wrap"><i class="fa-solid fa-heart fa-xl"></i></div>
+          <h3>Make a Difference</h3>
+          <p>Provide compassion and support to those who need it most.</p>
+        </div>
+        <div class="icon-card section-hidden">
+          <div class="icon-wrap"><i class="fa-solid fa-dollar-sign fa-xl"></i></div>
+          <h3>Career Opportunities</h3>
+          <p>High demand for skilled caregivers in Nigeria and globally.</p>
+        </div>
+        <div class="icon-card section-hidden">
+          <div class="icon-wrap"><i class="fa-solid fa-earth-africa fa-xl"></i></div>
+          <h3>Globally Relevant Skills</h3>
+          <p>Learn standards recognized worldwide in healthcare.</p>
+        </div>
+        <div class="icon-card section-hidden">
+          <div class="icon-wrap"><i class="fa-solid fa-graduation-cap fa-xl"></i></div>
+          <h3>Personal & Professional Growth</h3>
+          <p>Develop empathy, patience, and leadership skills.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== ABOUT ACADEMY (DEEPER) ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding section-hidden">
+    <div class="container flex-row">
+      <div class="flex-image animate-left"><img src="about.jpg" alt="About WeCare Academy"></div>
+      <div class="flex-content animate-right">
+        <span class="subtitle-tag">About the Academy</span>
+        <h2>Practical Learning. Experienced Instructors. Real-World Care.</h2>
+        <p>WeCare Academy bridges the gap between theory and practice. Our curriculum is designed by healthcare professionals to ensure you graduate with the confidence to handle real-life caregiving situations.</p>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Flexible online and physical class options</li>
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Small class sizes for personalized attention</li>
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Direct mentorship from certified nurses</li>
+        </ul>
+        <a href="#courses" class="btn-secondary-outline">Explore Courses</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== COURSES SECTION (dynamic container) ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding bg-light section-hidden" id="courses">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle-tag">Our Curriculum</span>
+        <h2>Professional Caregiving Courses</h2>
+        <p>Self-paced learning with certificate upon completion. Enroll today and start your journey.</p>
+      </div>
+      <!-- courses injected via JavaScript (script.js) -->
+      <div class="course-grid" id="course-container">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== LEARNING JOURNEY STEPS ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding section-hidden journey-section">
+    <div class="container">
+      <div class="section-header text-white">
+        <span class="subtitle-tag text-orange">Your Path to Success</span>
+        <h2>Your Learning Journey</h2>
+      </div>
+      <div class="journey-steps">
+        <div class="step section-hidden">
+          <div class="step-num">1</div>
+          <h3>Enroll</h3>
+          <p>Choose your course and register online or in-person.</p>
+          <div class="step-line"></div>
+        </div>
+        <div class="step section-hidden">
+          <div class="step-num">2</div>
+          <h3>Complete Lessons</h3>
+          <p>Access expert video modules and reading materials.</p>
+          <div class="step-line"></div>
+        </div>
+        <div class="step section-hidden">
+          <div class="step-num">3</div>
+          <h3>Take Assessments</h3>
+          <p>Test your knowledge with practical and written exams.</p>
+          <div class="step-line"></div>
+        </div>
+        <div class="step section-hidden">
+          <div class="step-num">4</div>
+          <h3>Receive Certificate</h3>
+          <p>Earn your industry-recognized credential.</p>
+          <div class="step-line"></div>
+        </div>
+        <div class="step section-hidden">
+          <div class="step-num">5</div>
+          <h3>Become a Professional</h3>
+          <p>Start your rewarding career in caregiving.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== "WHY LEARN WITH US" FEATURES ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding section-hidden bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle-tag">Why WeCare</span>
+        <h2>Why Learn With WeCare Academy?</h2>
+      </div>
+      <div class="grid-3">
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-user-doctor fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Experienced Trainers</h3>
+          <p>Learn from certified healthcare professionals with years of field experience.</p>
+        </div>
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-kit-medical fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Practical Curriculum</h3>
+          <p>Hands-on training that prepares you for real-world scenarios.</p>
+        </div>
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-laptop-medical fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Flexible Learning</h3>
+          <p>Study at your own pace with a blend of online and physical classes.</p>
+        </div>
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-user-graduate fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Professional Certificate</h3>
+          <p>Receive a credential respected by employers nationwide.</p>
+        </div>
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-briefcase fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Career-Focused Training</h3>
+          <p>Designed to help you secure employment immediately after graduation.</p>
+        </div>
+        <div class="feature-card section-hidden">
+          <div class="feature-icon"><i class="fa-solid fa-headset fa-xl" style="color: var(--accent-orange); margin-bottom: 15px; display: inline-block;"></i></div>
+          <h3>Student Support</h3>
+          <p>Dedicated tutors and career advisors to guide you every step of the way.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== TESTIMONIALS (student stories) ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding section-hidden">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle-tag">Graduate Stories</span>
+        <h2>What Our Students Say</h2>
+      </div>
+      <div class="testimonial-grid">
+        <div class="testimonial-card section-hidden">
+          <div class="quote">"The course gave me the confidence to begin my caregiving journey. I now work with a top home healthcare agency."</div>
+          <div class="author">- Grace O.</div>
+        </div>
+        <div class="testimonial-card section-hidden">
+          <div class="quote">"I now understand professional elderly care. The practical sessions were invaluable."</div>
+          <div class="author">- Chidi E.</div>
+        </div>
+        <div class="testimonial-card section-hidden">
+          <div class="quote">"Flexible learning allowed me to balance my job and studies. Highly recommend WeCare!"</div>
+          <div class="author">- Amina S.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== CERTIFICATE SECTION ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding bg-light section-hidden" id="certificate">
+    <div class="container flex-row">
+      <div class="flex-content animate-left">
+        <span class="subtitle-tag">Your Credential</span>
+        <h2>Industry-Recognized Certificate</h2>
+        <p>Upon successful completion of your course, you will receive a verified certificate that is respected by healthcare providers across Nigeria and beyond.</p>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Verified by WeCare Academy</li>
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Includes Unique code for easy verification</li>
+          <li><i class="fa-solid fa-check" style="color: var(--accent-orange); margin-right: 8px;"></i> Recognized by top home care agencies</li>
+        </ul>
+        <a href="https://verify.wecarenigeria.com" class="btn-primary">Verify Certificate</a>
+      </div>
+      <div class="flex-image animate-right"><img src="certificate.webp" alt="Certificate Mockup"></div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== FAQ SECTION ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding section-hidden" id="faqs">
+    <div class="container">
+      <div class="section-header">
+        <span class="subtitle-tag">Got Questions?</span>
+        <h2>Frequently Asked Questions</h2>
+      </div>
+      <div class="faq-list">
+        <div class="faq-item section-hidden">
+          <button class="faq-question">Do I need prior nursing experience? <span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p>No. Our courses are designed for beginners and professionals alike.</p></div>
+        </div>
+        <div class="faq-item section-hidden">
+          <button class="faq-question">Is the course online or physical? <span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p>We offer a blended learning model with both online modules and physical practical sessions.</p></div>
+        </div>
+        <div class="faq-item section-hidden">
+          <button class="faq-question">How long does it take to complete? <span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p>Most courses take between 4 to 8 weeks depending on your pace.</p></div>
+        </div>
+        <div class="faq-item section-hidden">
+          <button class="faq-question">Will I receive a certificate? <span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p>Yes, you will receive a verified certificate upon passing your assessments.</p></div>
+        </div>
+        <div class="faq-item section-hidden">
+          <button class="faq-question">Who can apply for this course? <span class="faq-icon">+</span></button>
+          <div class="faq-answer"><p>Anyone passionate about caregiving, including fresh graduates, career changers, and current healthcare workers.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== CALL TO ACTION (CTA) ===== -->
+  <!-- ============================================================ -->
+  <section class="section-padding cta-section section-hidden" id="enroll">
+    <div class="container text-center">
+      <h2>Ready to Start Your Caregiving Journey?</h2>
+      <p>Take the first step toward becoming a compassionate, skilled, and certified caregiver with WeCare Academy.</p>
+      <a href="#" class="btn-primary btn-large">Enroll Now</a>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- ===== FOOTER ===== -->
+  <!-- ============================================================ -->
+  <footer class="footer" id="contact">
+    <div class="container footer-grid">
+      <!-- brand info -->
+      <div>
+        <h3>WeCare Academy</h3>
+        <p>Empowering the next generation of professional caregivers.</p>
+      </div>
+      <!-- quick links -->
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#certificate">Certificate</a></li>
+        </ul>
+      </div>
+      <!-- support links -->
+      <div>
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#faqs">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <!-- contact details -->
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Lagos, Nigeria</li>
+          <li>+234 800 123 4567</li>
+          <li>info@wecareacademy.ng</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2026 WeCare Academy. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT (module) ===== -->
+  <script type="module" src="script.js"></script>
+</body>
+</html>
