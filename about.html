@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us | WeCare Nursing Services Academy</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+<!-- ===== FAVICON ===== -->
+<link rel="icon" type="image/png" href="logo1.png">
+<link rel="apple-touch-icon" href="logo1.png">
+</head>
+<body>
+
+<!-- ============ HEADER / NAV ============ -->
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="index.html" class="brand">
+      <img src="logo.png" alt="WeCare Nursing Services Academy" class="brand-logo">
+      <span class="brand-text">
+        <span class="brand-name">WeCare</span>
+        <span class="brand-sub">Nursing Services</span>
+        <span class="brand-badge">ACADEMY</span>
+      </span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-link">Home</a>
+
+      <div class="nav-dropdown">
+        <button class="nav-link nav-dropdown-toggle" id="coursesToggle" aria-haspopup="true" aria-expanded="false">
+          Courses
+          <svg class="chevron" width="12" height="8" viewBox="0 0 12 8" fill="none">
+            <path d="M1 1.5L6 6.5L11 1.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <div class="dropdown-menu" id="coursesMenu">
+          <a href="courses.html" class="dropdown-item" data-course="1">
+            <span class="dropdown-item-name">Ethics and Principles of Caregiving</span>
+            <span class="dropdown-item-price">₦49k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="2">
+            <span class="dropdown-item-name">Basic Health Assessment &amp; Observation Techniques</span>
+            <span class="dropdown-item-price">₦49k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="3">
+            <span class="dropdown-item-name">Basic Life Support (BLS)</span>
+            <span class="dropdown-item-price">₦25k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="4">
+            <span class="dropdown-item-name">Therapy in Caregiving</span>
+            <span class="dropdown-item-price">₦26,500</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="5">
+            <span class="dropdown-item-name">Geriatric Care: Understanding Ageing &amp; its Health Implications</span>
+            <span class="dropdown-item-price">₦49k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="6">
+            <span class="dropdown-item-name">Dementia and Other Cognitive Diseases</span>
+            <span class="dropdown-item-price">₦23k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="7">
+            <span class="dropdown-item-name">Palliative and End-of-Life Care</span>
+            <span class="dropdown-item-price">₦25k</span>
+          </a>
+          <a href="courses.html" class="dropdown-item" data-course="8">
+            <span class="dropdown-item-name">Nutrition in Caregiving</span>
+            <span class="dropdown-item-price">₦23k</span>
+          </a>
+          <a href="courses.html" class="dropdown-view-all">View all courses →</a>
+        </div>
+      </div>
+
+      <a href="https://verify.wecarenigeria.com" class="nav-link" target="_blank">Certifications</a>
+      <a href="about.html" class="nav-link active">About</a>
+      <a href="https://wa.me/2349073190330?text=Hi%2C%20%40WeCare%20Nursing%20Services%2C%20I%20saw%20Your%20Academy%20Website%20on%20Google%20and%20Would%20Like%20to%20Make%20an%20enquiry" class="nav-link" target="_blank">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#login" class="btn btn-ghost">Login</a>
+      <a href="#get-started" class="btn btn-primary">Get Started
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+          <path d="M3.5 8H12.5M12.5 8L8.5 4M12.5 8L8.5 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+
+    <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO BANNER (Using Hero.webp) ============ -->
+<section class="section-padding" style="padding: 0; position: relative; overflow: hidden;">
+  <div style="position: relative; width: 100%; height: 400px;">
+    <img src="hero.webp" alt="WeCare Academy About Hero" style="width: 100%; height: 100%; object-fit: cover; filter: brightness(0.65);">
+    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 0 20px;">
+      <h1 style="font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 10px;">About WeCare Academy</h1>
+      <p style="font-size: 1.2rem; color: rgba(255,255,255,0.85); max-width: 700px; line-height: 1.6;">Empowering Africa's next generation of professional caregivers through world-class training, practical experience, and globally recognized certifications.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MISSION & VISION ============ -->
+<section class="section-padding section-hidden bg-light">
+  <div class="container flex-row">
+    <div class="flex-content animate-left">
+      <span class="subtitle-tag" style="color: var(--green-dark);">Our Mission</span>
+      <h2>Bridging the Gap Between Passion and Professional Care</h2>
+      <p>At WeCare Academy, our mission is to provide accessible, high-quality caregiving education that equips individuals with the skills, confidence, and credentials needed to make a meaningful impact in the healthcare industry.</p>
+      <p style="margin-top: 15px;">We believe that compassionate care should be backed by expert knowledge. Our curriculum is designed by certified healthcare professionals to ensure every graduate is ready for real-world challenges.</p>
+    </div>
+    <div class="flex-image animate-right">
+      <img src="about.jpg" alt="Our Mission" style="border-radius: var(--radius-md); box-shadow: var(--shadow-md); width: 100%; height: 350px; object-fit: cover;">
+    </div>
+  </div>
+</section>
+
+<!-- ============ OUR VALUES ============ -->
+<section class="section-padding section-hidden">
+  <div class="container">
+    <div class="section-header">
+      <span class="subtitle-tag" style="color: var(--green-dark);">Core Values</span>
+      <h2>What Drives Us</h2>
+      <p>Our core values are the foundation of everything we do, ensuring we deliver the best training and support to our students.</p>
+    </div>
+    <div class="grid-4">
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-heart fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Compassion</h3>
+        <p>We instill genuine empathy and kindness in every caregiver we train, ensuring they treat every patient with dignity.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-graduation-cap fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Excellence</h3>
+        <p>We hold ourselves to the highest educational standards, delivering only the most up-to-date and practical curriculum.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-handshake fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Integrity</h3>
+        <p>We operate with transparency, honesty, and unwavering ethical principles in all our training and student interactions.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-globe fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Global Impact</h3>
+        <p>We prepare caregivers to meet both local and international healthcare standards, opening doors worldwide.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATS SECTION (GREEN BACKGROUND - UPDATED WITH DATA-TARGET) ============ -->
+<section class="section-padding section-hidden" style="background: var(--green); color: #fff;" id="stats-section">
+  <div class="container">
+    <div class="section-header text-white">
+      <span class="subtitle-tag" style="color: var(--accent-orange);">Our Impact</span>
+      <h2 style="color: #fff;">WeCare Academy By The Numbers</h2>
+    </div>
+    <div class="grid-4" style="text-align: center;">
+      <div class="section-hidden">
+        <h3 class="stat-number" data-target="20" style="font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 5px;">0</h3>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1rem;">Expert Instructors</p>
+      </div>
+      <div class="section-hidden">
+        <h3 class="stat-number" data-target="5000" style="font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 5px;">0</h3>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1rem;">Learners Trained</p>
+      </div>
+      <div class="section-hidden">
+        <h3 class="stat-number" data-target="8" style="font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 5px;">0</h3>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1rem;">Professional Courses</p>
+      </div>
+      <div class="section-hidden">
+        <h3 class="stat-number" data-target="50" style="font-size: 3rem; font-weight: 800; color: #fff; margin-bottom: 5px;">0</h3>
+        <p style="color: rgba(255,255,255,0.8); font-size: 1rem;">Partner Healthcare Agencies</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY CHOOSE US ============ -->
+<section class="section-padding section-hidden bg-light">
+  <div class="container">
+    <div class="section-header">
+      <span class="subtitle-tag" style="color: var(--green-dark);">Why WeCare</span>
+      <h2>Why Choose WeCare Academy?</h2>
+    </div>
+    <div class="grid-4">
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-user-doctor fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Experienced Trainers</h3>
+        <p>Learn directly from certified nurses and healthcare professionals with years of field experience.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-laptop-medical fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Flexible Learning</h3>
+        <p>Study at your own pace with our blended learning approach—online theory plus optional physical practicals.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-certificate fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Recognized Certificates</h3>
+        <p>Earn a verified credential that is respected and trusted by top healthcare agencies across Nigeria.</p>
+      </div>
+      <div class="feature-card section-hidden">
+        <div class="feature-icon" style="margin: 0 auto 16px; width: 50px; height: 50px; background: var(--green-pale); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+          <i class="fa-solid fa-briefcase fa-xl" style="color: var(--green);"></i>
+        </div>
+        <h3>Career Support</h3>
+        <p>We provide job guidance, resume building, and direct connections to our network of healthcare employers.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="section-padding section-hidden cta-section">
+  <div class="container text-center">
+    <h2>Ready to Join WeCare Academy?</h2>
+    <p>Take the first step toward becoming a compassionate, skilled, and certified caregiver today.</p>
+    <a href="courses.html" class="btn btn-primary btn-large" style="padding: 14px 40px;">Explore Courses</a>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" id="contact">
+  <div class="container footer-grid">
+    <div>
+      <a href="index.html" style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+        <img src="logo1.png" alt="WeCare Academy Logo" style="width: 40px; height: 40px; object-fit: contain;">
+        <h3 style="color: #fff; margin: 0;">WeCare Academy</h3>
+      </a>
+      <p style="color: var(--gray-500); line-height: 1.6;">Empowering the next generation of professional caregivers.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="courses.html">Courses</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Support</h4>
+      <ul>
+        <li><a href="faq.html">FAQs</a></li>
+        <li>
+          <a href="https://wa.me/2349073190330?text=Hi%2C%20%40WeCare%20Nursing%20Services%2C%20I%20saw%20Your%20Academy%20Website%20on%20Google%20and%20Would%20Like%20to%20Make%20an%20enquiry" target="_blank">
+            Contact Us
+          </a>
+        </li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul style="display: flex; flex-direction: column; gap: 12px;">
+        <li>
+          <a href="https://www.google.com/maps/search/?api=1&query=11+Regina+Ceali+Road,+Awka" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-location-dot"></i> 11 Regina Ceali Road, Awka
+          </a>
+        </li>
+        <li>
+          <a href="mailto:info@wecarenigeria.com" style="display: inline-flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-envelope"></i> info@wecarenigeria.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:+2349073190330" style="display: inline-flex; align-items: center; gap: 8px;">
+            <i class="fa-solid fa-phone"></i> 09073190330
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; 2026 WeCare Academy. All rights reserved.</p>
+  </div>
+</footer>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
